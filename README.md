@@ -1,3 +1,38 @@
+
+## This project is my first javascript framework uploaded.
+
+# HISTORY
+
+Netscape done emac, it was the firts way of doing things, it was the firts to have standard, it is a specification for doing the best things. JavaScript is complex in her dialect, for this reason born JQuery, it was a revolution for the time, it can be for doing dinamic pages, later javascript had support for POO.
+
+## Some facts in the frontend world
+
+- The development should know some framework for interact with one logic. 
+- The market is look for people with kwnolegement in some framewoks.
+- What is next?, hibric projects, for multiple platforms. 
+
+## How thouthgt in angular?
+
+We need change our mentality for development in angular.
+
+- We need think about components, it can be for just use one HTML, re-use follow the principle DRY (dont repeat yourself)
+- Ts typescript is the logic for our angular application. 
+- Import we need libraries, components for import...
+- @Component: additional informacion as, selector (nickname for our component), templeteUrl(View html)
+- export class etc, for attributes and make the logic of our application. 
+- **Template** div our html in others pages.
+- ng serve for run our project. localhost:4200
+
+## Bootstrap install
+
+For doing bootstrap is better dowload the project 
+
+- npm install bootstrap --save
+- In our **package.json** it install bring the boostrap and version (without save it dont keep save in package.json)
+- In Angular-cli.json styles, we need write the path of bootstrap.min.css
+
+
+
 # Demoapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
@@ -25,3 +60,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
