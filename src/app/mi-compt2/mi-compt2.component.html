@@ -1,0 +1,56 @@
+<div class="container">
+  <h1>Components and bindings</h1>
+
+
+  <div class="row">
+    <label>one-way-binding</label>
+    <input type="text" (keyup)="saludar($event)">
+    <button class="btn btn-primary" (click)="saludar2()">saludar</button>
+
+    <!-- Se enlaza con la ts para mostrarlo en la vista
+    <p>{{nombre}}</p> 
+    -->
+    <p>{{nombre}}</p>
+
+  </div>
+  <br/>
+  <div class="row">
+    <label>Two-way-binding</label>
+    <input type="text" [(ngModel)]="apellidos">
+    <p>{{apellidos}}</p>
+    
+  </div>
+  <br/>
+
+
+  
+
+
+  <div class="row">
+    <label>Habilitar</label>
+    <input type="text" (keyup)="habilitar($event)">
+    <button class="btn btn-primary" [disabled]="deshabilitado" (click)="saludar2()">saludar</button>
+
+    
+    <p>{{nombre}}</p>
+
+  </div>
+
+
+  <br/>
+  <div class="row">
+    <label>Tarea</label>
+    <br/>
+    
+    <input type="text" [(ngModel)]="persona">
+    <button class="btn btn-primary succes" (click)="agregar()">Agregar</button>
+
+    <br/>   
+
+  </div>
+  <ul>
+    <li *ngFor="let p of personas">{{p}}</li>
+  </ul>
+  
+
+</div>
