@@ -1,7 +1,7 @@
 
 # Modifications
 
-The modifications of this project are [hear](/blob/master/src/app/mi-compt2/mi-compt2.component.ts).
+The modifications of this project are [hear](/src/app/mi-compt2/mi-compt2.component.ts).
 
 ## This project is my first javascript framework uploaded.
 
