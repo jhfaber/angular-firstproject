@@ -1,0 +1,30 @@
+
+<app-b [canal]="'MitoCode'" (emisor)="mostrarImagen($event)"> </app-b>
+
+<div class="media">
+
+  <div class="media-left">
+    <img [src]="imagenUrl" alt="MitoCode" width="150" height="150">
+  </div>
+  
+
+
+  <div class="media-body">
+    <h4 class="media-heading">Descripcion</h4>
+    Estás aprendiendo {{nombre}}
+
+  </div>
+
+<!-- -->
+
+
+
+
+  
+</div>
+
+<div class="form-group">
+  <button type="button" class="btn btn-primary" (click)="suscribirse()">{{lblBtnSuscrito}}</button>
+  <button type="button" class="btn btn-danger"  (click)="desuscribirse()">{{lblBtnDeSuscrito}}</button>
+
+</div>

@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  mensaje: string
+
+  //Recibe de a, a través del html
+  mostrar(event){
+    this.mensaje=event;
+    console.log("mensaje recibido")
+  }
 }

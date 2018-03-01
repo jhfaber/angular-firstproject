@@ -1,1 +1,14 @@
-<app-mi-compt2>tra</app-mi-compt2> 
+<!-- funcionalidad pasada <app-mi-compt2>tra</app-mi-compt2> 
+-->
+
+<div class="alert alert-success" *ngIf="mensaje ==='Suscrito';else desus">
+    <strong>{{mensaje}}</strong>
+</div>
+
+<ng-template #desus>
+    <div class="alert alert-danger" *ngIf="mensaje != null">
+        <strong>{{mensaje}}</strong>
+    </div>
+</ng-template>
+<app-a (emisor)="mostrar($event)"
+[nombre]="'si'" [lblBtnSuscrito]="'Suscribirse'"  [lblBtnDeSuscrito]="'Suscribirse'"></app-a>
